@@ -7,7 +7,7 @@ const projects = [
   {
     name: 'Comfy Sloth',
     description:
-      'Jobify is a full-stack web app that doctors and hospitals can use in order to maintain their shift times , department and locations.',
+      'This project was created with React, and I use styled-components for styling. I utilize an external furniture API for data and list furniture on the home page. Users can navigate to the detail page by clicking on an image, and filtering and sorting algorithms are available. Products can be added to the cart, and quantities can be adjusted on the cart page. I implemented the login and payment functionality using external services, specifically Auth0 for login and Stripe for checkout. There is a breadcrumbs navigation at the top of the page that allows for quick page changes. ',
     image: '/comfy.png',
     github: 'https://github.com/yigitbaris/react-comfy-sloth',
     link: 'https://comfysloth-reactapp.netlify.app/',

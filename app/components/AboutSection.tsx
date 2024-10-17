@@ -4,14 +4,16 @@ const skills = [
   { skill: 'HTML' },
   { skill: 'CSS' },
   { skill: 'JavaScript' },
-  { skill: 'TypeScript' },
-  { skill: 'Node.js' },
   { skill: 'React' },
   { skill: 'Next.js' },
   { skill: 'Tailwind CSS' },
+  { skill: 'TypeScript' },
+  { skill: 'Node.js' },
+  { skill: 'Express.js' },
+  { skill: 'MongoDB' },
   { skill: 'Git' },
   { skill: 'GitHub' },
-  { skill: 'Jupyter Notebooks' },
+  { skill: 'REST API' },
 ]
 
 const AboutSection = () => {
@@ -40,13 +42,7 @@ const AboutSection = () => {
               I graduated from Karabük University in 2019 with a BS in Computer
               Engineering and have been working in the field ever since.
             </p>
-            <br />
-            <p>
-              I have a wide range of hobbies and passions that keep me busy.
-              From reading, playing sports, traveling, to making YouTube videos,
-              I am always seeking new experiences and love to keep myself
-              engaged and learning new things.
-            </p>
+
             <br />
             <p>
               I believe that you should{' '}
@@ -68,7 +64,8 @@ const AboutSection = () => {
                 return (
                   <p
                     key={idx}
-                    className='bg-gray-200 px-4 py-2 mr-2 mt-2 text-gray-500 rounded font-semibold'
+                    className='bg-gray-200 px-4 py-2 mr-2 mt-4 text-gray-500 rounded font-semibold hover:animate-bgChange hover:bg-teal-500
+                    hover:-translate-y-1 transition-transform cursor-pointer'
                   >
                     {item.skill}
                   </p>

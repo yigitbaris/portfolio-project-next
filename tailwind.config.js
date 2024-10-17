@@ -8,7 +8,7 @@ module.exports = {
   ],
   theme: {
     extend: {
-      screens: { sm: '480px', md: '768px', lg: '976px', xl: '1440pd' },
+      screens: { sm: '480px', md: '768px', lg: '976px', xl: '1440px' },
       animation: {
         fadeIn: 'fadeIn 1.5s',
         bounce:
@@ -16,6 +16,7 @@ module.exports = {
         slideUp: 'slideUp 0.5s',
         slideUpEaseInOut: 'slideUp 0.5s ease-in-out',
         slideUpCubiBezier: 'slideUp 1s cubic-bezier(0.165, 0.84, 0.44, 1)',
+        bgChange: '1.5s ease-in-out', // Add new animation for background color change
       },
       animationDelay: {
         0: '0s',

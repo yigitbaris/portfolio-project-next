@@ -64,7 +64,7 @@ const ProjectsSection = () => {
                   </div>
                   <div className='mt-12 md:w-1/2'>
                     <h1 className='text-4xl font-bold mb-6'>{project.name}</h1>
-                    <p className='text-xl leading-7 mb-4 text-neutral-600 dark:text-neutral-400 '>
+                    <p className='text-lg leading-7 mb-4 text-neutral-600 dark:text-neutral-400 '>
                       {project.description}
                     </p>
                     <div className='flex flex-row justify-center md:justify-normal align-bottom  space-x-4'>

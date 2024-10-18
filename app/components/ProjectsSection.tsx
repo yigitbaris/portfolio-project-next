@@ -7,7 +7,7 @@ const projects = [
   {
     name: 'Comfy Sloth',
     description:
-      'This project was created with React, and I use styled-components for styling. I utilize an external furniture API for data and list furniture on the home page. Users can navigate to the detail page by clicking on an image, and filtering and sorting algorithms are available. Products can be added to the cart, and quantities can be adjusted on the cart page. I implemented the login and payment functionality using external services, specifically Auth0 for login and Stripe for checkout. There is a breadcrumbs navigation at the top of the page that allows for quick page changes. ',
+      'This React project uses styled-components for styling and an external furniture API to list products on the home page. Users can view product details by clicking images, with filtering and sorting features available. The cart allows quantity adjustments, and login/payment is handled via Auth0 and Stripe. Breadcrumbs at the top provide easy navigation between pages.',
     image: '/comfy.png',
     github: 'https://github.com/yigitbaris/react-comfy-sloth',
     link: 'https://comfysloth-reactapp.netlify.app/',
@@ -15,7 +15,7 @@ const projects = [
   {
     name: 'Next.js Full-Stack',
     description:
-      'Jobify is a full-stack web app that doctors and hospitals can use in order to maintain their shift times , department and locations.',
+      'This full-stack e-commerce website is built with Next.js, featuring a responsive design and robust functionality. It uses MongoDB and Prisma for database management and a Node.js server for backend operations. The site includes Google authentication, Firebase storage for image uploads, and an add-to-cart feature. Admins can easily manage products, including adding new ones and viewing all listed products through the dedicated admin page.',
     image: '/next.png',
     github: 'https://github.com/yigitbaris/next.js-full-stack',
     link: 'https://github.com/yigitbaris/next.js-full-stack',
@@ -23,7 +23,7 @@ const projects = [
   {
     name: 'Jobify - Senior Project Web',
     description:
-      'Jobify is a full-stack web app that doctors and hospitals can use in order to maintain their shift times , department and locations.',
+      'This project digitalizes hospital shift management to improve efficiency and simplify scheduling. It saves time, reduces errors, and eases the workload for administrators and doctors. Built with the MERN Stack , it includes admin and doctor roles, JWT-secured connections, and encrypted password storage. Users can update profiles, with dark/light mode support stored in localStorage. The application is fully responsive, adjusting layouts and sidebars based on screen size for an optimized user experience.',
     image: '/senior.png',
     github: 'https://github.com/yigitbaris/senior-project',
     link: 'https://github.com/yigitbaris/senior-project',
@@ -31,7 +31,7 @@ const projects = [
   {
     name: 'Jobify - Senior Project Mobile',
     description:
-      'Jobify is a full-stack web app that doctors and hospitals can use in order to maintain their shift times , department and locations.',
+      'This project brings the hospital shift management system to mobile using React Native, allowing greater accessibility. Both the mobile and web apps share the same server and database for seamless synchronization.',
     image: '/mobil.png',
     github: 'https://github.com/yigitbaris/senior-project-mobil',
     link: 'https://github.com/yigitbaris/senior-project-mobil',
@@ -67,7 +67,7 @@ const ProjectsSection = () => {
                     <p className='text-xl leading-7 mb-4 text-neutral-600 dark:text-neutral-400 '>
                       {project.description}
                     </p>
-                    <div className='flex flex-row align-bottom space-x-4'>
+                    <div className='flex flex-row justify-center md:justify-normal align-bottom  space-x-4'>
                       <Link href={project.github} target='_blank'>
                         <BsGithub
                           size={30}
